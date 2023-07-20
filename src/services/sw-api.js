@@ -10,7 +10,7 @@ async function fetchData(url) {
   }
 }
 
-// Function to obtain all starships
+
 export async function getAllStarships() {
   const url = 'https://swapi.dev/api/starships/';
   return fetchData(url);
